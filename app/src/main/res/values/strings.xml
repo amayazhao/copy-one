@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">CopyOne</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="one_day">day</string>
+    <string name="one_reading">reading</string>
+    <string name="one_music">music</string>
+    <string name="one_movie">movie</string>
+</resources>

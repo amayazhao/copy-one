@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.zhao.copyone.ui.MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:elevation="0dp"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:minHeight="?android:attr/actionBarSize"
+        app:theme="@style/AppTheme"
+        android:background="?attr/colorPrimary"
+        app:title="hello"
+        app:titleTextColor="#77000000"
+        app:popupTheme="@style/AppTheme.PopupOverlay"/>
+    <View style="@style/h_line"></View>
+    </android.support.design.widget.AppBarLayout>
+    <include layout="@layout/content_main" />
+    <View style="@style/h_line"
+        android:layout_marginBottom="56dp"
+        android:layout_gravity="bottom"></View>
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/navigation"
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:itemBackground="@color/white"
+        app:itemIconTint="@color/bottom_item_color"
+        app:itemTextColor="@color/bottom_item_color"
+        app:paddingStart="20dp"
+        app:paddingEnd="30dp"
+        app:menu="@menu/navigation">
+    </android.support.design.widget.BottomNavigationView>
+</android.support.design.widget.CoordinatorLayout>
